@@ -1,0 +1,2193 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="using%20System-Dateien/filelist.xml">
+<title>using System;</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>CAN PASCAL YILDIZ</o:Author>
+  <o:LastAuthor>CAN PASCAL YILDIZ</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:Created>2012-01-16T16:03:00Z</o:Created>
+  <o:LastSaved>2012-01-16T16:05:00Z</o:LastSaved>
+  <o:Pages>8</o:Pages>
+  <o:Words>2413</o:Words>
+  <o:Characters>15204</o:Characters>
+  <o:Company>Can-Tv</o:Company>
+  <o:Lines>126</o:Lines>
+  <o:Paragraphs>35</o:Paragraphs>
+  <o:CharactersWithSpaces>17582</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-520092929 1073806591 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=DE style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.IO;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Collections;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Collections.Generic;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.ComponentModel;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Data;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Drawing;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Text;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>using</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> System.Windows.Forms;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:green;mso-ansi-language:EN-GB'>///////////////////////////////////////////////////////////////////////////////</span><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:green;mso-ansi-language:EN-GB'>//Titel:AdditionalInfo</span><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>// Autor: Can Pascal Yildiz</span><span style='font-size:9.5pt;
+font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//Erstellungsdatum: 26.09.11</span><span style='font-size:9.5pt;
+font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//Beschreibung: Programm um die <span class=SpellE>AdditionalInfo</span>
+zu den Testautomaten</span><span style='font-size:9.5pt;font-family:Consolas;
+mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//in einer Html Seite zu <span class=GramE>speichern ,diese</span>
+wird später über den Automatenstatus</span><span style='font-size:9.5pt;
+font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//<span class=SpellE>angezeigt.Die</span> Bilder werden dynamisch
+aus einem Pfad eingelesen und jeweils</span><span style='font-size:9.5pt;
+font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//in einer Textbox mit dazugehörigen <span class=SpellE>radioButton</span>
+angezeigt.</span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:green'>//Man kann auch eine Vorschau anzeigen!</span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:green;mso-ansi-language:EN-GB'>///////////////////////////////////////////////////////////////////////////////</span><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:blue;mso-ansi-language:EN-GB'>namespace</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> Additionalinfo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>    </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>    </span><span
+style='color:blue'>public</span> <span style='color:blue'>partial</span> <span
+style='color:blue'>class</span> <span style='color:#2B91AF'>AdditionalInfoForm</span>
+: <span style='color:#2B91AF'>Form</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>public</span> AdditionalInfoForm()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>InitializeComponent();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>string</span> ausgabeHtmlPfad = <span
+style='color:#A31515'>&quot;C:\\Users\\CAN\\Desktop\\aDDIO\\Additionalinfo\\int\\&quot;</span>;<span
+style='mso-spacerun:yes'>                  </span><span style='color:green'>//AusgabePfad
+für die Html<span style='mso-spacerun:yes'>       </span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>string</span> gifPfad = <span style='color:
+#A31515'>&quot;C:\\Users\\CAN\\Desktop\\aDDIO\\Gifs&quot;</span>;<span
+style='mso-spacerun:yes'>                                             </span><span
+style='color:green'>//Pfad zu den gif Bildern<span
+style='mso-spacerun:yes'>        </span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>public</span> <span style='color:blue'>static</span>
+<span style='color:blue'>string</span> textVorlagenPfad = <span
+style='color:#A31515'>&quot;C:\\Users\\CAN\\Desktop\\aDDIO\\Additionalinfo\\int\\textvorlagen.txt&quot;</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>  </span><span
+style='mso-spacerun:yes'>      </span><span style='color:blue'>string</span>
+vorschauHtmlPfad = <span style='color:#2B91AF'>Environment</span>.ExpandEnvironmentVariables(<span
+style='color:#A31515'>&quot;%TMP%&quot;</span>)+<span style='color:#A31515'>&quot;\\tmp.html&quot;</span>;<span
+style='mso-spacerun:yes'>                                           </span><span
+style='color:green'>//Pfad zur Vorschau Html</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>string</span> back = <span style='color:#A31515'>&quot;&amp;nbsp;&amp;nbsp;&quot;</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>public</span> <span style='color:blue'>void</span>
+AdditionalInfoForm_Load(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>try</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>               
+</span>comboBoxVorlagenText.Items.Clear();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>               
+</span>comboBoxVorlagenText.Items.AddRange(System.IO.<span style='color:#2B91AF'>File</span>.ReadAllLines(textVorlagenPfad));<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>catch</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(textVorlagenPfad, <span
+style='color:#A31515'>&quot;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>this</span>.Close();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>if</span> (<span style='color:#2B91AF'>File</span>.Exists(ausgabeHtmlPfad
++ <span style='color:#A31515'>&quot;_additionalAutomatenStatusInfo.html&quot;</span>))<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>ausgabeHtmlPfad =
+ausgabeHtmlPfad + <span style='color:#A31515'>&quot;_additionalAutomatenStatusInfo.html&quot;</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE><span
+style='color:blue'>else</span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>ausgabeHtmlPfad =
+ausgabeHtmlPfad + <span style='color:#A31515'>&quot;additionalAutomatenStatusInfo.html&quot;</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//Beim
+Laden der Form werden alle Dateien mit der Endung &quot;.<span class=SpellE>gif</span>&quot;
+ausgelesen und im Array &quot;<span class=SpellE>pins</span>&quot;
+abgelegt.<span style='mso-spacerun:yes'>          </span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>radioButtonVorlageText.Checked = <span
+style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>string</span>[] pins = System.IO.<span
+style='color:#2B91AF'>Directory</span>.GetFiles(gifPfad, <span
+style='color:#A31515'>&quot;*.gif&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>int</span> i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:#2B91AF'>List</span>&lt;<span style='color:blue'>string</span>&gt;
+FileArray = <span style='color:blue'>new</span> <span style='color:#2B91AF'>List</span>&lt;<span
+style='color:blue'>string</span>&gt;();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;color:green'>//In der Schleife wird jedes einzelne Objekt aus &quot;<span
+class=SpellE>pins</span>&quot; <span class=SpellE>ausgelesen.Für</span> jedes
+Bild wird eine PictureBox mit einem <span class=SpellE>RadioButton</span>
+erstellt.</span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//Die
+PictureBox enthält das eingelesene Bild. Die Schleife läuft so lange bis alle
+Bilder <span class=SpellE>eigelesen</span> wurden.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue;mso-ansi-language:EN-GB'>for</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> (i = 0; i &lt; pins.Length; i++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>int</span>
+tmpNummer = 6;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>string</span>
+pictureBoxName = i + <span style='color:#A31515'>&quot;pic17407&quot;</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>string</span>
+pictureBox = pictureBoxName;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>               
+</span>FileArray.Add(pins[i].ToString());<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span></span><span style='font-size:
+9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;color:green'>/////////////////////////////////////////////////////////////////////////////////</span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:green'>//&quot;<span
+class=SpellE>pic</span>&quot; wird als neue PictureBox genommen und die
+Eigenschaften werden festgelegt.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:#2B91AF;mso-ansi-language:EN-GB'>PictureBox</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> pictureBox1 = <span style='color:blue'>new</span>
+System.Windows.Forms.<span style='color:#2B91AF'>PictureBox</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>((System.ComponentModel.<span
+style='color:#2B91AF'>ISupportInitialize</span>)(pictureBox1)).BeginInit();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.SizeMode = <span
+style='color:#2B91AF'>PictureBoxSizeMode</span>.StretchImage;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.Name = <span
+style='color:#A31515'>&quot;pictureBox&quot;</span> + i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.TabStop = <span
+style='color:blue'>false</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.Image = <span
+style='color:blue'>new</span> <span style='color:#2B91AF'>Bitmap</span>(pins[i]);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.Height = 80;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.Width = 80;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>            
+</span><span style='mso-spacerun:yes'>   </span>pictureBox1.Top = 30;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span></span><span style='font-size:
+9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'>pictureBox1.Left =
+30;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:green'>//Es
+wird angegeben das <span class=SpellE>pic</span> zu
+&quot;flowLayoutPanel1&quot; hinzugefügt wird.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>bildFlowLayout.Controls.Add(pictureBox1);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>((System.ComponentModel.<span
+style='color:#2B91AF'>ISupportInitialize</span>)(pictureBox1)).EndInit();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span></span><span style='font-size:
+9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;color:green'>//der
+Name von &quot;<span class=SpellE>pic</span>&quot; wird geändert in die
+Variable &quot;<span class=SpellE>picbo</span>&quot; (i+&quot;pic17407&quot;)</span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>pictureBox1.Name = <span
+class=SpellE>pictureBox</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:green'>/////////////////////////////////////////////////////////////////////////////////</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:green'>//ein
+neuer <span class=SpellE>radioButton</span> wird erstellt und seine
+Eigenschaften werden festgelegt.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:#2B91AF;mso-ansi-language:EN-GB'>RadioButton</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> radioButtonFürBild = <span style='color:blue'>new</span>
+System.Windows.Forms.<span style='color:#2B91AF'>RadioButton</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.AutoSize = <span
+style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.Checked = <span
+style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span></span><span class=SpellE><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'>radioButtonFürBild.Name</span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'> = <span
+style='color:#A31515'>&quot;rdb11&quot;</span> + i;<span
+style='mso-spacerun:yes'>   </span><span style='color:green'>//Der Name von
+&quot;<span class=SpellE>radioButtonFürBild</span>&quot; wir geändert.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span class=SpellE>radioButtonFürBild.Tag</span>
+= <span class=SpellE>pins</span>[i];<span style='mso-spacerun:yes'>     
+</span><span style='color:green'>//in den Tag wird der Link zum Bild abgelegt</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>radioButtonFürBild.Size = <span style='color:blue'>new</span>
+System.Drawing.<span style='color:#2B91AF'>Size</span>(14, 13);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.CheckedChanged
++= <span style='color:blue'>new</span> System.<span style='color:#2B91AF'>EventHandler</span>(<span
+style='color:blue'>this</span>.radioButtonFürBild_checkedChanged);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.Checked = <span
+style='color:blue'>false</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.TabStop = <span
+style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.CheckAlign =
+<span style='color:#2B91AF'>ContentAlignment</span>.MiddleCenter;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.UseVisualStyleBackColor
+= <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>radioButtonFürBild.Location = <span
+style='color:blue'>new</span> System.Drawing.<span style='color:#2B91AF'>Point</span>(703,
+116);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span></span><span class=SpellE><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'>bildFlowLayout.Controls.Add</span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'>(<span
+class=SpellE>radioButtonFürBild</span>);<span style='mso-spacerun:yes'>   
+</span><span style='color:green'>//Es wird angegeben das <span class=SpellE>radioButtonFürBild</span>
+zu &quot;<span class=SpellE>bildFlowLayout</span>&quot; hinzugefügt wird.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>tmpNummer++;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>keinBildCheckbox.Checked = <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+radioButtonFürBild_checkedChanged(<span style='color:blue'>object</span>
+sender, <span style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//Sobald
+die Auswahl des <span class=SpellE>radioButtons</span> sich ändert, wird überprüft
+welcher <span class=SpellE>radioButton</span> jetzt ausgewählt ist. Der Link
+zum Bild wird aus dem Tag</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//des <span
+class=SpellE>radioButton</span> ausgelesen.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE><span
+style='color:blue'>string</span></span> <span class=SpellE>radioButtonName</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE>keinBildCheckbox.Checked</span>
+= <span class=SpellE><span style='color:blue'>false</span></span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE><span
+style='color:#2B91AF'>RadioButton</span></span> <span class=SpellE>radioButtonSenderName</span>
+= (<span class=SpellE><span style='color:#2B91AF'>RadioButton</span></span>)<span
+class=SpellE>sender</span>; <span style='color:green'>//Der Link zum Bild ist
+im Tag des <span class=SpellE>RadioButton</span> abgelegt.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE>radioButtonName</span>
+= <span class=SpellE>radioButtonSenderName.Name</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>okButton.Tag = <span class=SpellE>radioButtonSenderName.Tag</span>;
+<span style='color:green'>//der Link des Bildes wird als Tag des &quot;<span
+class=SpellE>Ok</span>&quot;-Buttons gesetzt.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+okButton_Click(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//Es wird
+geprüft ob der Anwender ein Bild haben möchte oder nicht. Ebenfalls wird geprüft
+ob der vorgefertigte Text oder seinen eigener Text ausgewählt ist.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue;mso-ansi-language:EN-GB'>try</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span><span style='color:blue'>if</span> (keinBildCheckbox.Checked == <span
+style='color:blue'>true</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(<span class=SpellE>radioButtonVorlageText.Checked</span> == <span
+style='color:blue'>true</span>) <span style='color:green'>//wenn der User einen
+vorgefertigten Text gewählt hat, wird der Text und das Bild in eine Html Seite
+eingebettet.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+class=SpellE>zeitErsteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + textBox2.Text + <span style='color:#A31515'>&quot; &quot;</span>
++ <span class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>vorschauBrowser.Navigate(ausgabeHtmlPfad);
+<span style='color:green'>//hier Navigiert der webBrowser1 zu der eben
+erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(radioButtonEigenerText.Checked == <span style='color:blue'>true</span>) <span
+style='color:green'>//wenn der User seinen eigenen Text gewählt hat, wird der
+eigene Text und das Bild in eine Html Seite eingebettet.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> +
+textBoxEigenerText.Text + <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   
+</span>vorschauBrowser.Navigate(ausgabeHtmlPfad); <span style='color:green'>//hier
+Navigiert der webBrowser1 zu der eben erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span><span style='color:blue'>catch</span> (<span style='color:#2B91AF'>Exception</span>
+ex)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:#2B91AF'>MessageBox</span>.Show(ex.Message);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>if</span>
+(<span class=SpellE>keinBildCheckbox.Checked</span> == <span class=SpellE><span
+style='color:blue'>false</span></span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(<span class=SpellE>radioButtonVorlageText.Checked</span> == <span
+style='color:blue'>true</span>) <span style='color:green'>//wenn der User einen
+vorgefertigten Text gewählt hat, wird der Text und das Bild in eine Html Seite
+eingebettet.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>try</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                        </span><span style='color:
+#2B91AF'>PictureBox</span> mpicBox = <span style='color:blue'>new</span>
+System.Windows.Forms.<span style='color:#2B91AF'>PictureBox</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>string</span>
+picPfad = (<span style='color:blue'>string</span>)okButton.Tag;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span>mpicBox.Image = <span
+style='color:blue'>new</span> <span style='color:#2B91AF'>Bitmap</span>
+(picPfad);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue'>if</span><span style='font-size:9.5pt;font-family:Consolas;
+mso-bidi-font-family:Consolas'> (mpicBox.Image.Height &gt;= 160) <span
+style='color:green'>//Es wird geprüft ob das Bild größer oder gleich<span
+style='mso-spacerun:yes'>  </span>160 ist, wenn das der Fall ist wird der Text
+mittig zum Bild geschrieben.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+align=\&quot;middle\&quot; /&gt;&quot;</span> + back + <span class=SpellE>zeitErsteComboBox.Text</span>
++ <span style='color:#A31515'>&quot; &quot;</span> + textBox2.Text + <span
+style='color:#A31515'>&quot; &quot;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                            </span>+ <span
+class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>vorschauBrowser.Navigate(ausgabeHtmlPfad);
+<span style='color:green'>//hier Navigiert der webBrowser1 zu der eben
+erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>if</span>
+(mpicBox.Image.Height &lt; 160)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+/&gt;&quot;</span> + back + <span class=SpellE>zeitErsteComboBox.Text</span> + <span
+style='color:#A31515'>&quot; &quot;</span> + textBox2.Text + <span
+style='color:#A31515'>&quot; &quot;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                            </span>+ <span
+class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                       
+</span>vorschauBrowser.Navigate(ausgabeHtmlPfad); <span style='color:green'>//hier
+Navigiert der webBrowser1 zu der eben erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>catch</span>
+(<span style='color:#2B91AF'>Exception</span> ex)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>            
+</span><span style='mso-spacerun:yes'>           </span><span style='color:
+#2B91AF'>MessageBox</span>.Show(ex.Message);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>           </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>           </span><span style='color:blue'>try</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>           </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>               </span><span style='color:blue'>if</span>
+(radioButtonEigenerText.Checked == <span style='color:blue'>true</span>) <span
+style='color:green'>//wenn der User seinen eigenen Text gewählt hat, wird der
+eigene Text und das Bild in eine Html Seite eingebettet.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>               </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span><span style='color:#2B91AF'>PictureBox</span>
+mpicBox = <span style='color:blue'>new</span> System.Windows.Forms.<span
+style='color:#2B91AF'>PictureBox</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span><span style='color:blue'>string</span>
+picPfad = (<span style='color:blue'>string</span>)okButton.Tag;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span>mpicBox.Image = <span
+style='color:blue'>new</span> <span style='color:#2B91AF'>Bitmap</span>(picPfad);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue'>if</span><span style='font-size:9.5pt;font-family:Consolas;
+mso-bidi-font-family:Consolas'> (mpicBox.Image.Height &gt;= 160) <span
+style='color:green'>//Es wird geprüft ob das Bild größer oder gleich<span
+style='mso-spacerun:yes'>  </span>160 ist, wenn das der Fall ist wird der Text
+mittig zum Bild geschrieben.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                       </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+align=\&quot;middle\&quot; /&gt;&quot;</span> + back + textBoxEigenerText.Text
++ <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                      
+</span>vorschauBrowser.Navigate(ausgabeHtmlPfad); <span style='color:green'>//hier
+Navigiert der webBrowser1 zu der eben erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   </span><span style='color:blue'>if</span>
+(mpicBox.Image.Height &lt; 160)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                       </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(ausgabeHtmlPfad, <span
+style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+/&gt;&quot;</span> + back + textBoxEigenerText.Text + <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                      
+</span>vorschauBrowser.Navigate(ausgabeHtmlPfad); <span style='color:green'>//hier
+Navigiert der webBrowser1 zu der eben erstellten Html Seite.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                   </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>              
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span><span style='color:blue'>catch</span> (<span style='color:#2B91AF'>Exception</span>
+ex)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>              
+</span><span style='color:#2B91AF'>MessageBox</span>.Show(ex.Message);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>this</span>.Dispose();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>this</span>.Close();
+<span style='color:green'>// das Programm wird geschlossen.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span><span style='color:blue'>private</span>
+<span class=SpellE><span style='color:blue'>void</span></span> <span
+class=SpellE>vorschauButton_Click</span>(<span class=SpellE><span
+style='color:blue'>object</span></span> <span class=SpellE>sender</span>, <span
+class=SpellE><span style='color:#2B91AF'>EventArgs</span></span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>//eine
+Vorschau wird erstellt im Grunde passiert <span class=GramE>das selbe</span>
+wie wenn button1 gedrückt wird, nur das die Html jetzt &quot;<span
+class=SpellE>tmp</span>&quot; heißt und in einem temporären Ordner
+abgespeichert wird.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>if</span>
+(<span class=SpellE>keinBildCheckbox.Checked</span> == <span style='color:blue'>true</span>)<span
+style='mso-spacerun:yes'>  </span><span style='color:green'>//Abfrage ob der
+User ein Bild möchte oder nicht</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(<span class=SpellE>radioButtonVorlageText.Checked</span> == <span
+style='color:blue'>true</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+class=SpellE>zeitErsteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + textBox2.Text + <span style='color:#A31515'>&quot; &quot;</span>
++ <span class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>vorschauBrowser.Navigate(<span
+class=SpellE>vorschauHtmlPfad</span>); <span style='color:green'>//Der
+webBrowser1 navigiert zu der Vorschau die eben erstellt wurde.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>              </span><span
+style='mso-spacerun:yes'>  </span><span style='color:blue'>if</span>
+(radioButtonEigenerText.Checked == <span style='color:blue'>true</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> +
+textBoxEigenerText.Text + <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>vorschauBrowser.Navigate(<span
+class=SpellE>vorschauHtmlPfad</span>); <span style='color:green'>//Der webBrowser1
+navigiert zu der Vorschau die eben erstellt wurde.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>if</span>
+(<span class=SpellE>keinBildCheckbox.Checked</span> == <span class=SpellE><span
+style='color:blue'>false</span></span>) <span style='color:green'>//Abfrage ob
+der User ein Bild möchte oder nicht</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(radioButtonVorlageText.Checked == <span style='color:blue'>true</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><span style='color:#2B91AF'>PictureBox</span>
+mpicBox = <span style='color:blue'>new</span> System.Windows.Forms.<span
+style='color:#2B91AF'>PictureBox</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span><span class=GramE><span
+style='color:blue'>string</span></span> picPfad = (<span style='color:blue'>string</span>)okButton.Tag;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span>mpicBox.Image = <span
+style='color:blue'>new</span> <span style='color:#2B91AF'>Bitmap</span>
+(picPfad);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                    </span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue'>if</span><span style='font-size:9.5pt;font-family:Consolas;
+mso-bidi-font-family:Consolas'> (mpicBox.Image.Height &gt;= 160) <span
+style='color:green'>//Es wird geprüft ob das Bild größer oder gleich<span
+style='mso-spacerun:yes'>  </span>160 ist, wenn das der Fall ist wird der Text
+mittig zum Bild geschrieben.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+align=\&quot;middle\&quot; /&gt;&quot;</span> + back + <span class=SpellE>zeitErsteComboBox.Text</span>
++ <span style='color:#A31515'>&quot; &quot;</span> + textBox2.Text + <span
+style='color:#A31515'>&quot; &quot;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                            </span>+ <span
+class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>if</span>
+(mpicBox.Image.Height &lt; 160)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+/&gt;&quot;</span> + back + <span class=SpellE>zeitErsteComboBox.Text</span> + <span
+style='color:#A31515'>&quot; &quot;</span> + textBox2.Text + <span
+style='color:#A31515'>&quot; &quot;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                            </span>+ <span
+class=SpellE>zeitZweiteComboBox.Text</span> + <span style='color:#A31515'>&quot;
+&quot;</span> + <span class=SpellE>comboBoxVorlagenText.Text</span> + <span
+style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>vorschauBrowser.Navigate(<span
+class=SpellE>vorschauHtmlPfad</span>); <span style='color:green'>//Der
+webBrowser1 navigiert zu der Vorschau die eben erstellt wurde.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span><span style='color:blue'>if</span>
+(radioButtonEigenerText.Checked == <span style='color:blue'>true</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span><span style='color:#2B91AF'>PictureBox</span>
+mpicBox = <span style='color:blue'>new</span> System.Windows.Forms.<span
+style='color:#2B91AF'>PictureBox</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>          
+</span><span style='mso-spacerun:yes'>        </span><span style='color:blue'>string</span>
+picPfad = (<span style='color:blue'>string</span>)okButton.Tag;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span>mpicBox.Image = <span
+style='color:blue'>new</span> <span style='color:#2B91AF'>Bitmap</span>(picPfad);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span
+style='mso-spacerun:yes'>                   </span></span><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue'>if</span><span style='font-size:9.5pt;font-family:Consolas;
+mso-bidi-font-family:Consolas'> (mpicBox.Image.Height &gt;= 160) <span
+style='color:green'>//Es wird geprüft ob das Bild größer oder gleich<span
+style='mso-spacerun:yes'>  </span>160 ist, wenn das der Fall ist wird der Text
+mittig zum Bild geschrieben.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+align=\&quot;middle\&quot; /&gt;&quot;</span> + back + textBoxEigenerText.Text
++ <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                       
+</span>vorschauBrowser.Navigate(<span class=SpellE>vorschauHtmlPfad</span>); <span
+style='color:green'>//Der webBrowser1 navigiert zu der Vorschau die eben
+erstellt wurde.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span><span style='color:blue'>if</span>
+(mpicBox.Image.Height &lt; 160)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>System.IO.<span
+style='color:#2B91AF'>File</span>.WriteAllText(<span class=SpellE>vorschauHtmlPfad</span>,
+<span style='color:#A31515'>&quot;&lt;b&gt;&lt;big&gt; &quot;</span> + <span
+style='color:#A31515'>&quot;&lt;img src= &quot;</span> + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + okButton.Tag + <span
+style='color:#A31515'>&quot;\&quot;&quot;</span> + <span style='color:#A31515'>&quot;
+/&gt;&quot;</span> + back + textBoxEigenerText.Text + <span style='color:#A31515'>&quot;&lt;/big&gt;&lt;/b&gt;&quot;</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                        </span>vorschauBrowser.Navigate(<span
+class=SpellE>vorschauHtmlPfad</span>); <span style='color:green'>//Der
+webBrowser1 navigiert zu der Vorschau die eben erstellt wurde.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                    </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span><span style='color:green'>//sobald ein
+Text eingegeben wird oder eine Vorlage ausgewählt wird, wird der dazugehörige <span
+class=SpellE>radioButton</span> <span class=SpellE>asugewählt</span>.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+color:blue;mso-ansi-language:EN-GB'>private</span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'> <span style='color:blue'>void</span>
+tbeigenertxt_TextChanged(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>radioButtonEigenerText.Checked = <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+comboBoxVorlagenText_SelectedIndexChanged(<span style='color:blue'>object</span>
+sender, <span style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>radioButtonVorlageText.Checked = <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+zeitErsteComboBox_SelectedIndexChanged(<span style='color:blue'>object</span>
+sender, <span style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>radioButtonVorlageText.Checked = <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+zeitZweiteComboBox_SelectedIndexChanged(<span style='color:blue'>object</span>
+sender, <span style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>           
+</span>radioButtonVorlageText.Checked = <span style='color:blue'>true</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+abbruchButton_Click(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:blue'>this</span>.Close();
+<span style='color:green'>//Programm wird beim drücken des
+&quot;Abbrechen&quot;-Buttons geschlossen.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+zurGifFolderToolStripMenuItem_Click(<span style='color:blue'>object</span>
+sender, <span style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE>System.Diagnostics.<span
+style='color:#2B91AF'>Process</span>.Start</span>(<span style='color:#A31515'>&quot;<span
+class=SpellE>explorer</span>&quot;</span>, @<span class=SpellE>gifPfad</span>);
+<span style='color:green'>//Beim drücken des Menüeintrags &quot;zum <span
+class=SpellE>Gif-Ordner</span>&quot; wird der Explorer gestartet und navigiert
+zum <span class=SpellE>gifPfad</span>.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span><span style='color:blue'>private</span>
+<span class=SpellE><span style='color:blue'>void</span></span> <span
+class=SpellE>textvorschlagHinzufügenToolStripMenuItem_Click</span>(<span
+class=SpellE><span style='color:blue'>object</span></span> <span class=SpellE>sender</span>,
+<span class=SpellE><span style='color:#2B91AF'>EventArgs</span></span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE><span
+style='color:blue'>new</span></span> <span class=SpellE><span style='color:
+#2B91AF'>AdditionalInfoTextVorlagen</span></span>().Show(); <span
+style='color:green'>//Beim klicken auf den Menüeintrag wird die 2.Form geöffnet.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span style='color:green'>// Die <span
+class=SpellE>ComboBox</span> für die Textvorschläge wird aktualisiert.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE><span
+style='color:blue'>this</span>.Update</span>(); <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>           </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span class=SpellE>comboBoxVorlagenText.Items.Clear</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>                </span><span class=SpellE>comboBoxVorlagenText.Items.AddRange</span>(<span
+class=SpellE>System.IO.<span style='color:#2B91AF'>File</span>.ReadAllLines</span>(<span
+class=SpellE>textVorlagenPfad</span>));<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span></span><span lang=EN-GB
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+mso-ansi-language:EN-GB'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+comboBoxVorlagenText_Click(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>EventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>       </span><span
+style='mso-spacerun:yes'>     </span><span class=SpellE>comboBoxVorlagenText.Items.Clear</span>();<span
+style='mso-spacerun:yes'>  </span><span style='color:green'>// Die <span
+class=SpellE>ComboBox</span> für die Textvorschläge wird aktualisiert.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>            </span><span class=SpellE>comboBoxVorlagenText.Items.AddRange</span>(<span
+class=SpellE>System.IO.<span style='color:#2B91AF'>File</span>.ReadAllLines</span>(<span
+class=SpellE>textVorlagenPfad</span>));<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+menuStrip1_ItemClicked(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>ToolStripItemClickedEventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span><span style='color:blue'>private</span> <span style='color:blue'>void</span>
+bildFlowLayout_Paint(<span style='color:blue'>object</span> sender, <span
+style='color:#2B91AF'>PaintEventArgs</span> e)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-GB style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas;mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>       
+</span></span><span style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:
+Consolas'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>        </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>      </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><span
+style='mso-spacerun:yes'>   </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
